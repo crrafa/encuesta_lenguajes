@@ -8,7 +8,7 @@ contador = {}
 # Abre lenguajes.log, agrega los lenguajes al diccionario contando sus repeticiones.
 with open("lenguajes.log", "r") as lectura:
     for i in lectura:
-        item = i.strip()
+        elemento = i.strip()
         if item not in contador:
             contador[item] = 1
         else:
